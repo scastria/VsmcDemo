@@ -2,6 +2,7 @@
 using Microsoft.Azure.Mobile;
 using Microsoft.Azure.Mobile.Analytics;
 using Microsoft.Azure.Mobile.Crashes;
+using Microsoft.Azure.Mobile.Push;
 using Xamarin.Forms;
 
 namespace VsmcDemo
