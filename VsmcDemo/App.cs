@@ -20,8 +20,8 @@ namespace VsmcDemo
         {
             MobileCenter.Start("ios=cc85ffa0-9495-453d-b6de-789f5e3eb9ab;" +
 				   "uwp={Your UWP App secret here};" +
-				   "android={Your Android App secret here}",
-				   typeof(Analytics), typeof(Crashes));
+				   "android=28c200dc-f40a-4baf-b9d2-ab4c85dcd1d7",
+				   typeof(Analytics), typeof(Crashes), typeof(Push));
         }
 
         protected override void OnSleep()
